@@ -11,13 +11,9 @@ const StyledHeader = styled.header`
     text-align: left;
     position: relative;
 
-    h1, p {
-        margin: 0; /* Remove extra spacing */
-        
-    }
-
     @media screen and (max-width: 1000px) {
         align-items: center;
+        text-align: center;
     }
 `;
 

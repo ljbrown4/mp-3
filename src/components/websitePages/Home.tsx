@@ -105,7 +105,7 @@ export default function Home() {
             <Title> About Me </Title>
             <Arch1>
                 <Images>
-                    <img src="/public/headshot.jpg" alt="Leigh Brown"/>
+                    <img src="/headshot.jpg" alt="Leigh Brown"/>
                     <h4><strong> Leigh Brown </strong></h4>
                     <h5> Sophomore at Boston University</h5>
                     <h5><em>Computer Science and Advertising </em></h5>

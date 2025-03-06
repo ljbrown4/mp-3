@@ -12,12 +12,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     position: relative;
+    align-items: center;
     background-color: #373737;
     
     @media screen and (max-width: 1000px) {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 `;
 
@@ -29,16 +29,16 @@ export const StyledMain = styled.main`
     min-height: 100vh;
     
     p {
-        font-size: calc(2px + 0.98vw);
+        font-size: calc(1px + 0.98vw);
         color: whitesmoke;
         font-weight: lighter;
         margin-top: 2vh;
         margin-bottom: 1vh;
+        margin-left: 2vw;
     }
     
     @media screen and (max-width: 1000px) {
         width: 100%;
-        align-items: center;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -75,7 +75,7 @@ export const Arch1 = styled.div`
     
     @media screen and (max-width: 1000px) {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
         text-align: center;
     }
 `;

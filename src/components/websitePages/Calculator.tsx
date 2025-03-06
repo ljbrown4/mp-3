@@ -21,6 +21,12 @@ const StyledInput = styled.input`
     color: #6c576c;
     background-color: lavender;
     font-weight: bold;
+    
+    @media screen and (max-width: 1000px) {
+        font-size: calc(6px + 1.9vw);
+        margin: auto;
+        padding:0 0 0 1vw;
+    }
 `;
 const StyledLabel = styled.label` //placeholder wasn't showing
     color: #3a2c3a;
@@ -42,6 +48,10 @@ const Result = styled.input`
     margin: 2vh auto;
     font-weight: bold;
     //padding: 1%;
+    
+    @media screen and (max-width: 1000px) {
+        font-size: calc(8px + 1.9vw);
+    }
 `;
 
 const StyledButton = styled.button`
@@ -51,6 +61,10 @@ const StyledButton = styled.button`
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 50px;
+    
+    @media screen and (max-width: 1000px) {
+        font-size: calc(6px + 1.9vw);
+    }
 `;
 
 export default function Calculator() {

@@ -9,7 +9,10 @@ const StyledFooter = styled.footer`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position: relative;
+
+    @media screen and (max-width: 1000px){
+        
+    }
 `;
 const LinkStyles = {
     color: '#b9bfca'
@@ -26,7 +29,7 @@ export default function ReuseFooter() {
             <p>
                 All Rights Reserved by Leigh Brown{" "}
                 <Link to="/credits" style = {LinkStyles}>Credits</Link> &copy;{" "}
-                <StyledA href="/public/Leigh Brown Resume.pdf" download>
+                <StyledA href="/Leigh Brown Resume.pdf" download>
                     Download Resume
                 </StyledA>
             </p>

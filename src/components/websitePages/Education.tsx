@@ -73,7 +73,7 @@ export default function Education() {
                     </p>
                 </Info>
                 <Image>
-                    <img src ="/public/cds.png" alt="CDS"/>
+                    <img src ="/cds.png" alt="CDS"/>
                 </Image>
             </Arch1>
 
