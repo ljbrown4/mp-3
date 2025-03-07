@@ -61,11 +61,12 @@ const StyledButton = styled.button`
     border-color: #8a728a;
     color: #3a2c3a;
     font-weight: bold;
-    padding: 10px 30px;
+    padding: 1vh 3vw;
     border-radius: 50px;
     
     @media screen and (max-width: 1000px) {
         font-size: calc(6px + 1.9vw);
+        padding: 0.8vh 2.5vw;
     }
 `;
 
