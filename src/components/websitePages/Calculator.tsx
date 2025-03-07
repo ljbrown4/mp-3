@@ -51,7 +51,7 @@ const Result = styled.input`
     
     @media screen and (max-width: 1000px) {
         font-size: calc(8px + 1.9vw);
-        padding: 2px 5px;
+        padding: 1vh 5vw;
         margin: auto;
     }
 `;
@@ -66,7 +66,7 @@ const StyledButton = styled.button`
     
     @media screen and (max-width: 1000px) {
         font-size: calc(6px + 1.9vw);
-        padding: 0.8vh 2.5vw;
+        padding: 1vh 2.5vw;
     }
 `;
 
