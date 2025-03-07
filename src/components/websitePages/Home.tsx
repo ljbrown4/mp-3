@@ -48,7 +48,7 @@ const StyledUl = styled.ul`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    padding: 2vw;
     li {
         list-style: none; //get rid of bullet points
     }
