@@ -35,7 +35,7 @@ const StyledLabel = styled.label` //placeholder wasn't showing
 
 const Result = styled.input`
     width: 80%;
-    height: 40px;
+    height: 4vh;
     background-color: lavender;
     padding: 2px 10px;
     color: #320032;
@@ -52,6 +52,7 @@ const Result = styled.input`
     @media screen and (max-width: 1000px) {
         font-size: calc(8px + 1.9vw);
         padding: 1vh 5vw;
+        height: 2vh;
         margin: auto;
     }
 `;
