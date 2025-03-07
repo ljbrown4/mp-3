@@ -45,7 +45,7 @@ export const StyledMain = styled.main`
         
         p {
             color: whitesmoke;
-            font-size: calc(7px + 2.1vw);
+            font-size: calc(5px + 2.1vw);
             text-align: center;
             margin: 2%;
             padding-top: 1vh;

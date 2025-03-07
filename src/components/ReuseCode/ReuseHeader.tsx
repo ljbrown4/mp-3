@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
         text-align: center;
         
         h1 {
-            font-size: calc(12px + 1.1vw);
+            font-size: calc(10px + 1.1vw);
         }
     }
 `;
