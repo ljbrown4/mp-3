@@ -23,7 +23,7 @@ export const Container = styled.div`
 `;
 
 export const StyledMain = styled.main`
-    width: 80%;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     background-color: #1b1b1b;
@@ -38,7 +38,7 @@ export const StyledMain = styled.main`
     }
     
     @media screen and (max-width: 1000px) {
-        width: 100%;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
