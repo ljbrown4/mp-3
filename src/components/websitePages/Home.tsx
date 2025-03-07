@@ -30,13 +30,13 @@ const Images = styled.div`
         h4 {
             text-align: center;
             color: #93a6c5;
-            font-size: calc(17px + 1.7vw);
+            font-size: calc(14px + 1.7vw);
         }
         h5 {
             align-items: center;
             text-align: center;
             color: whitesmoke;
-            font-size: calc(14px + 1.3vw);
+            font-size: calc(12px + 1.3vw);
         }
         img {
             padding-bottom: 1vh;

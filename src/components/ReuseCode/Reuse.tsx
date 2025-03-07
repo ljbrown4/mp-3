@@ -62,7 +62,7 @@ export const Title = styled.h2`
     
     @media screen and (max-width: 1000px) {
         text-align: center;
-        font-size: calc(18px + 2.1vw);
+        font-size: calc(16px + 2.1vw);
     }
 `;
 
@@ -99,7 +99,7 @@ export const StyledH3 = styled.h3`
     
     @media screen and (max-width: 1000px) {
         text-align: center;
-        font-size: calc(14px + 2.1vw);
+        font-size: calc(12px + 2.1vw);
     }
 `;
 
@@ -108,7 +108,7 @@ export const Sp = styled.p`
         margin: 3vh 2vw;
         
     @media screen and (max-width: 1000px) {
-        font-size: calc(7px + 2.1vw);
+        font-size: calc(5px + 2.1vw);
         text-align: center;
         margin: auto;
         width: 100%;

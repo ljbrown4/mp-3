@@ -51,7 +51,7 @@ const Result = styled.input`
     
     @media screen and (max-width: 1000px) {
         font-size: calc(8px + 1.9vw);
-        padding: 1vh 5vw;
+        padding: 5vw;
         height: 2vh;
         margin: auto;
     }
@@ -126,7 +126,7 @@ export default function Calculator() {
             <StyledButton onClick={() => setOp("div")}>/</StyledButton>
             <StyledButton onClick={() => setOp("power")}>**</StyledButton>
             <StyledButton onClick={() => setOp("clear")}>clear</StyledButton>
-
+            <br/>
             <Result
                 placeholder={`Result:`}
                 value = {ans}
