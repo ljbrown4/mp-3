@@ -23,7 +23,7 @@ const StyledInput = styled.input`
     font-weight: bold;
     
     @media screen and (max-width: 1000px) {
-        font-size: calc(6px + 1.9vw);
+        font-size: calc(8px + 1.9vw);
         margin: auto;
         padding:0 0 0 1vw;
     }
@@ -51,6 +51,8 @@ const Result = styled.input`
     
     @media screen and (max-width: 1000px) {
         font-size: calc(8px + 1.9vw);
+        padding: 2px 5px;
+        margin: auto;
     }
 `;
 

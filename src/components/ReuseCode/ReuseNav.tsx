@@ -10,7 +10,7 @@ const StyledNav = styled.nav`
     
 
     @media screen and (max-width: 1000px) {
-        max-width: 70%;
+        max-width: 100%;
         margin: 0;
         justify-content: space-evenly;
         height: auto;
