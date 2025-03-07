@@ -10,10 +10,15 @@ const StyledHeader = styled.header`
     color: #b9bfca;
     text-align: left;
     position: relative;
+    
 
     @media screen and (max-width: 1000px) {
         align-items: center;
         text-align: center;
+        
+        h1 {
+            font-size: calc(14px + 1.1vw);
+        }
     }
 `;
 

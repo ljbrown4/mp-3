@@ -5,7 +5,9 @@ import {NavLink} from "react-router-dom";
 const StyledNav = styled.nav`
     max-width: 20%;
     height: 50vh;
-    margin: 0 auto;
+    margin: auto;
+    width: 100%;
+    
 
     @media screen and (max-width: 1000px) {
         max-width: 70%;
@@ -27,18 +29,19 @@ const StyledUl = styled.ul`
     color: whitesmoke;
     list-style: none;
     height: 50vh;
-    max-width: 98%;
+    width: 98%;
     margin: 0;
 
     @media screen and (max-width: 1000px) {
         padding: 1vh 1vw;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap; //Allows items to wrap onto a new line if needed so it doesn't go over the edge
+        justify-content: flex-start;
         list-style: none;
         color: whitesmoke;
         height: auto;
-        max-width: 100%;
+        width: 100%;
     }
     `;
 
@@ -51,6 +54,7 @@ const StyledLi = styled.li`
 
     @media screen and (max-width: 1000px) {
         display: flex;
+        text-align: center;
         color: whitesmoke;
         font-size: calc(4px + 1.9vw);
         padding: .5% .5%;

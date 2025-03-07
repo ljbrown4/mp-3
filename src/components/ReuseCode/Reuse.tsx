@@ -16,6 +16,7 @@ export const Container = styled.div`
     background-color: #373737;
     
     @media screen and (max-width: 1000px) {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -34,7 +35,6 @@ export const StyledMain = styled.main`
         font-weight: lighter;
         margin-top: 2vh;
         margin-bottom: 1vh;
-        margin-left: 2vw;
     }
     
     @media screen and (max-width: 1000px) {
@@ -44,11 +44,11 @@ export const StyledMain = styled.main`
         min-height: 100vh;
         
         p {
+            color: whitesmoke;
             font-size: calc(7px + 2.1vw);
             text-align: center;
             margin: 2%;
-            padding: 1vh 2vw;
-            width: 90%;
+            padding-top: 1vh;
             
         }
     }

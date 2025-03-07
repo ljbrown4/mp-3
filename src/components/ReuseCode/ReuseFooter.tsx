@@ -11,7 +11,8 @@ const StyledFooter = styled.footer`
     justify-content: space-evenly;
 
     @media screen and (max-width: 1000px){
-        
+        text-align: center;
+        font-size: calc(8px + 1.1vw);
     }
 `;
 const LinkStyles = {

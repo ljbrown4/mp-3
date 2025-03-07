@@ -15,22 +15,17 @@ const Images = styled.div`
         text-align: center;
         color: #93a6c5;
         font-size: calc(2px + 1.3vw);
-        padding: 0;
-        margin: auto;
     }
     h5 {
         align-items: center;
         text-align: center;
         color: whitesmoke;
-        font-size: calc(1px + 1.1vw);
-        padding: 0;
-        margin: auto;
+        font-size: calc(1px + 1.3vw);
     }
     
     @media screen and (max-width: 1000px) {
         width: 80%;
-        align-items: center;
-        margin: auto;
+        align-self: center;
         
         h4 {
             text-align: center;
@@ -60,8 +55,8 @@ const StyledUl = styled.ul`
 `;
 const About = styled.div`
     align-self: center;
-    align-items: center;
-    max-width: 55%;
+    //align-items: center;
+    width: 60%;
     margin: 1vh 1vw;
     
     
@@ -82,7 +77,7 @@ const About = styled.div`
     
     @media screen and (max-width: 1000px) {
         align-items: center;
-        max-width: 100%;
+        width: 100%;
         
         h2 {
             font-size: calc(18px + 1.6vw);
@@ -122,8 +117,7 @@ export default function Home() {
 
                     <p>
                         Hello! I’m <strong><em>Leigh Brown</em></strong>, a sophomore at Boston University pursuing a
-                        Bachelor’s in <strong><em>Computer Science</em></strong>
-                        with a minor in <strong><em>Advertising</em></strong> .
+                        Bachelor’s in <strong><em>Computer Science</em></strong> with a minor in <strong><em>Advertising</em></strong> .
                         My passion for technology began in high school, where I discovered the thrill of solving
                         problems and building creative solutions
                         through code. Currently, I’m exploring web app development while honing my skills in <strong>Python,

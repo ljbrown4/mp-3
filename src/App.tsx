@@ -20,9 +20,9 @@ function Root () {
     pageTitle = pageTitle.charAt(0).toUpperCase() + pageTitle.slice(1);
     useEffect(()=>{
         if(pageTitle===""){
-            document.title="Home | Resume";
+            document.title="Home | Online Resume";
         }else {
-            document.title=pageTitle+" | Resume";
+            document.title=pageTitle+" | Online Resume";
         }
     },[pageTitle])
 
