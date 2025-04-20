@@ -89,9 +89,28 @@ export default function Calculator() {
                 op === "sub" ? String(n1 - n2) :
                     op === "mul" ? String(n1 * n2) :
                         op === "div" ? (n2 === 0 ? "Can't divide by 0" : String(n1 / n2)) :
-                            op === "power" ? String(n2 < 0 ? 1 / Math.pow(n1, -n2) : Math.pow(n1, n2)) :
+                            op === "power" ? (() => {
+                                    let ans = 1;
+                                    const pow1 = n1;
+                                    const pow2 = n2;
+
+                                    if (pow2 > 0) {
+                                        for (let i = 0; i < pow2; i++) {
+                                            ans *= pow1;
+                                        }
+                                    } else if (pow2 < 0) {
+                                        for (let i = 0; i < Math.abs(pow2); i++) {
+                                            ans *= pow1;
+                                        }
+                                        ans = 1 / ans;
+                                    } else { // pow2 === 0
+                                        ans = 1;
+                                    }
+                                    return String(ans);
+                                })() :
                                 op === "clear" ? " " : " "
         );
+
 
         if (op === 'clear') {
             setAns("");
